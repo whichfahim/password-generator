@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1> 
+                <span class="main-heading-1">Generate a </span> <br>
+                <span class="main-heading-2">random password </span>
+            </h1>
+            <p>
+                <span class="sub-heading">Never use an insecure password again.</span> 
+            </p>
+            <div class="password-length">
+                <form class="" action="">
+                    <label class="sub-heading--length" for="length">Set password length:</label>
+                    <input type="text" id="length" class="length" name="length" value="">
+                </form> 
+            </div>
+            
+
+            <button class="btn-generate" onclick="generate()">
+                Generate passwords
+            </button>
+            <hr class="divider">
+            <div class="password-container">
+                <button onclick="copy1()" class="btn-password-block-1" id="password-block-1">
+    
+                </button>
+                <button onclick="copy2()" class="btn-password-block-2" id="password-block-2">
+    
+                </button>
+            </div>
+        </div>
+
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
