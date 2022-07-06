@@ -1,4 +1,5 @@
-# cR9B46Sg
+# Random password generator
+A password generator which generates a random password using the length specified by the user. Built using HTML, CSS, and JavaScript.
 
 ## About Scrimba
 
