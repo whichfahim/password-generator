@@ -1,6 +1,9 @@
 # Random password generator
 A password generator which generates a random password using the length specified by the user. Built using HTML, CSS, and JavaScript.
 
+Follow this link for a preview:
+https://whichfahim.github.io/password-generator/
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
